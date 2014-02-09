@@ -1,0 +1,98 @@
+div#nears{
+	height: 85%;
+}
+
+ul#nears_button{
+	height: 8%;
+	width: 95%;
+	background: linear-gradient(#FFFFFF,#E3E3E3);
+	background: -webkit-linear-gradient(#FFFFFF,#E3E3E3);
+	position: relative;
+	margin-top: 0;
+	list-style: none;
+}
+
+ul#nears_button li{
+	margin-left: 0;
+	float: left;
+	width: 50%;
+	height: 80%;
+	position: absolute;
+}
+
+ul#nears_button li#nears_list_button{
+	left: 50%;
+}
+
+ul#nears_button li#nears_map_button{
+	left: 0;
+}
+
+ul#nears_button li a{
+	text-decoration: none;
+	color: #1A1A1A;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	font-size: 180%;
+	font-weight: bold;
+}
+
+ul#nears_button li a div{
+	height: 100%;
+}
+
+#map{
+	position: absolute;	
+	border-style: solid;
+	border-width: 1px;
+	width: 99%;
+	height: 89%;
+	margin: 0;
+	top:8%;
+}
+
+div#nears_list{
+	position: absolute;
+	width: 99%;
+	top:8%;
+	height: 89%;
+}
+
+
+div.aNear{
+	height: 17%;
+	width: 101%;
+	background: linear-gradient(#f9f9f9, #e3e3e3);
+	background: -webkit-linear-gradient(#f9f9f9, #e3e3e3);
+}
+
+div.aNear div.nearTx{
+	height: 80%;
+	border-style:solid;
+	border-radius: 5px;
+	position: relative;
+	top:5%;
+	left: 1%;
+	border-width: 1px;
+	float: left;
+}
+
+div.aNear div.nearName{
+	margin-left: 3%;
+	float: left;
+	position: relative;
+	top: 20%;
+}
+
+div.aNear div.nearDistance{
+	float: right;
+	margin-right: 5%;
+	position: relative;
+	top:33%;
+}
+
+div.nears_button_text{
+	top: 5%;
+	height: 80%;
+}

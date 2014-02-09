@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>注册</title>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+		<script type="text/javascript" src="../server.js"></script>
+		<script type="text/javascript" src="../jq/jq.js"></script>
+		<script type="text/javascript" src="../jq/jqm.js"></script>
+		<script type="text/javascript" src="../jq/afu.js"></script>
+		<script type="text/javascript" src="js/signUp.js"></script>
+		<script type="text/javascript" src="../../phonegap.js"></script>
+		<link rel="stylesheet" type="text/css" href="../jq/jqm.css">
+		<link rel="stylesheet" type="text/css" href="css/signUp2.css">
+	</head>
+		<body>
+			<div id="header">
+				<span id="backToLogin"><</span>
+				<div id="title">注册</div>
+			</div>
+
+			<div id="input_boxes">
+				<ul id="personalSettingList" data-role="listview">
+							<li>
+								<span class="labels">头像：</span>
+								<input type="file" id="settingTx" name="settingTx" >
+								<div id="settingTxDiv"><img id="txImg" name="txImg" src="" width="100%" height="100%"></div>
+							</li>
+							<li>
+								<span class="labels">昵称：</span>
+								<input type="text" placeholder="昵称" id="name" name="name" >
+							</li>
+							<li>
+								<fieldset data-role="controlgroup" data-type="horizontal">
+       								 <span id="labelForSex">性别: </span> <br>
+        							<input name="sex" id="male" value="男" checked="checked" type="radio">
+        							<label for="male">男</label>      
+        							<input name="sex" id="female" value="女"  type="radio">
+        							<label for="female">女</label>          							   
+    							</fieldset>
+							</li>
+							<li>
+								<span class="labels">年龄</span>
+								<input type="text"id="age" name="age" pattern="[0-9]*" placeholder="年龄">
+							</li>
+							<li>
+								<span class="labels">所在地：</span>
+								<input type="text" placeholder="所在地" id="place" name="place">
+							</li>
+							<li>
+								<span class="labels">个性签名：</span>
+								<input type="text" placeholder="签名" id="signature" name="signature">
+							</li>
+							<li id="submit">完成注册</li>
+						</ul>
+			</div>
+		</body>
+</html>

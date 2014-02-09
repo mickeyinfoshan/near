@@ -1,0 +1,77 @@
+
+	div#header{
+	
+	position:fixed;
+	top:-1px;
+	left: -1px;
+	width: 101%;
+	height: 9%;
+	background: linear-gradient(#1E90FF,#1874CD);
+	background: -webkit-linear-gradient(#1E90FF,#1874CD);
+	color: white;
+	font-size: 200%;
+	font-weight: bolder;
+	text-align: center;
+	z-index: 5;
+
+}
+
+ul#menuButtons{
+	position: fixed;
+	height: 12%;
+	top:88%;
+	left: 0;
+	list-style: none;
+	background: linear-gradient(#1E90FF,#1874CD);
+	background: -webkit-linear-gradient(#1E90FF,#1874CD);
+	width: 100%;
+	color: white;
+	z-index: 5;
+}
+
+ul#menuButtons li a{
+	width: 33%;
+	height: 100%;
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+a#messagesButton{
+	left: 0;
+	position: absolute;
+}
+
+a#nearsButton{
+	left: 30%;
+	position: absolute;
+
+}
+a#settingsButton{
+	left: 60%;
+	position: absolute;
+
+}
+
+
+
+.content{
+	left: 0;
+	width: 100%;
+	height: 85%;
+	position: absolute;
+}
+
+
+
+div#header div#header_text{
+	position: relative;
+	top:30%;
+	
+}
+
+
+

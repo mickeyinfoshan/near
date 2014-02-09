@@ -1,0 +1,51 @@
+li{
+	font-size:150%;
+}
+
+h1{
+	font-size: 200%;
+	color: white;
+	float: left;
+	margin-left: 25%;
+	position: fixed;
+	top:-10px;
+}
+
+#sendMessage{
+	width: 100%;
+	font-size: 150%;
+	font-weight: bold;
+	background: linear-gradient(#00EE00,#458B00);
+	background: -webkit-linear-gradient(#00EE00,#458B00);
+	color: white;
+	padding: 10px;
+}
+
+#tx{
+	width: 60%;
+	border-style: solid;
+}
+
+#header{
+	height: 10%;
+	width: 100%;
+	background: linear-gradient(#1E90FF,#1874CD);
+	background: -webkit-linear-gradient(#1E90FF,#1874CD);
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+
+#back{
+	float: left;
+	font-size: 250%;
+	text-decoration: none;
+	color: white;
+	margin-left: 2%;
+}
+
+#content{
+	
+	margin-top: 12%;
+	z-index: 2;
+}
